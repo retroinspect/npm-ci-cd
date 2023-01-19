@@ -1,0 +1,24 @@
+{
+  "name": "retro-npm-ci-cd",
+  "version": "1.0.0",
+  "description": "CI/CD homework assignment for 2023 Winter Wheel Seminar",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retroinspect/npm-ci-cd.git"
+  },
+  "author": "Sanga Choi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/retroinspect/npm-ci-cd/issues"
+  },
+  "homepage": "https://github.com/retroinspect/npm-ci-cd#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
