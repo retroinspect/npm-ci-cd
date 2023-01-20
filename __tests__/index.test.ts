@@ -1,5 +1,5 @@
-import hello from "../src";
+import hello from '../src';
 
-if (hello("retro") !== undefined) {
-    throw new Error("hello should return undefined")
+if (hello('retro') !== undefined) {
+  throw new Error('hello should return undefined');
 }
