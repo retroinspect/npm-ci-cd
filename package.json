@@ -1,6 +1,6 @@
 {
   "name": "retro-npm-ci-cd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CI/CD homework assignment for 2023 Winter Wheel Seminar",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
