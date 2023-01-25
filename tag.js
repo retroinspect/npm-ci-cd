@@ -2,7 +2,7 @@ const { version } = require('./package.json')
 
 const core = require('@actions/core');
 
-const tagVersion = process.env.GITHUB_REF_NAME
+const tagVersion = process.env.GITHUB_REF_NAME.split('v')[1]
 
 console.log(`package.json version: ${version}`)
 console.log(`tagVersion: ${tagVersion}`)
